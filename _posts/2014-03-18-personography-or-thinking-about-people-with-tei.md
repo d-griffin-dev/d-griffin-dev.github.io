@@ -27,7 +27,7 @@ The primary tag for personography is the  tag, which is a member of the "namesda
 Such are the main attributes for the  tag. You probably notice that there is no attribute for some of the more typical descriptions for people such as "name" or "birthdate". That is because the main work of a personography occurs within the person tag. The  tag can include many of the tag modules in the [TEI documentation][1]. The most important of these modules to personography is the "namesdates" module, to which the  tag itself belongs. The tags in this module are as follows:  , , , , , , , , , , , , , , , , , and .Each of these tags has their own set of attributes that are relevant to their usage, so when constructing a personography one will probably have to consult the documentation repeatedly to see what the range of options allow.
 
 The TEI documentation provides the following example of personography, using the Roman poet Ovid as their object of encoding:
-`
+```
 <person xml:id="Ovi01" sex="1" role="poet">
   <persName xml:lang="en">Ovid</persName>
   <persName xml:lang="la">Publius Ovidius Naso</persName>
@@ -43,7 +43,7 @@ The TEI documentation provides the following example of personography, using the
     </placeName>
   </death>
 </person>
-`
+```
 As you can see, using primarily the tags in the "namesdates" module, one can give a pretty straightforward description of the poet within the  tag, In addition to the attributes discussed above, you will see that the person tag has the attribute xml:id, which is used to uniquely identify the reference in the project at large. The name is described in two ways between  tags: first, the typical English shorthand "Ovid", and second, the longer, full Latin name of "Publius Ovidius Maro". His birth is given using the appropriate tag, which contains an attribute for the date (@when) and the nested  element to describle where. After the  element, we see another element representing his death encoded in similar fashion. As you can see, the data expressed is minimal, but straightforward.
 
 Such is how a Personography is constructed in the abstract. Information is given or subtracted based on the needs of the creators. Before going on to how it is put into practice, it is relevant to note how the person element is contained, as that largely dictates how the  element is used in any particular document. The  tag can be contained by three elements: , , and . The  tag is used primarily for nesting a series of  elements one after another. Participant Description () is an element that describes all the people involved in a particular document; perhaps the most salient example is to mention all the characters in a play, or perhaps all the contributors to a particular document. The  tag is for organizations: as organizations are composed of people, we would likely then expect a list of people who constitute the organization to appear within the tag.
@@ -57,7 +57,7 @@ The first example is the [The William F. Cody Archive][2], run by the Buffalo Bi
 The authors of the site have compiled all the persons mentioned in the texts and placed them into a single XML document, which they refer to as a personography. Unlike the other documents in the archive, no link is provided for the xml version of the text, so one must manually enter the [XML personography's address][3] to access the file. After providing typical TEI header information—file description, title statement, authorship, publication information—the file begins with  and  tags before starting a list of persons with . There are three lists which the 56 separate entries are distributed amongst:empire, personal, and business, referring to the different spheres which one could place a person in relation to Buffalo Bill.
 
 The entries themselves follow a formula: in fact, the authors have commented out the format which they wish to follow at the bottom of the text. Here is an example, the first entry of a person:
-`
+```
 <person xml:id="bailey.j">
   <persName type="display" subtype="lcsh">Bailey, James Anthony, 1847-1906</persName>
   <persName>
@@ -83,7 +83,7 @@ The entries themselves follow a formula: in fact, the authors have commented out
     Hachaliah Bailey. McGinnes eventually changed his name to James Anthony Bailey. [...]
   </note>
 </person>
-`
+```
 The only attribute in the name tag here is the XML identifier, which allows the application to point resources pertaining to the person to this entry (and vice versa). There are several different options presented for the name element. The first indicates what name should be displayed as the title of the entry when displayed in a list, which is designated by use of the type attribute "display". The second is his full given name encoded with  and , where the middle and first forename are distinguished with type attributes. Interestingly, because this particular person changed his name at one point in his life, the authors have included an  element to indicate this change from his birth name. The name fileds are followed by birth, death, and sex elements, and then a series of closed tags indicate choices which the authors did not provide information for (the majority of the entries leave the same fields blank). The final element is a  tag. In this element, the authors have provided a brief (one paragraph) biographical sketch of the person. The narrative is similar to what one would find in an encyclopedia entry, with an emphasis on the person's relationship to Buffalo Bill. Following the note, the person element is closed, and another similar entry begins.
 
 What is most striking to me about the choices the authors made in constructing this personography was their strict use of formatting and heavy reliance on the note tag. First, it is clear from the onset that the authors settled on a list of elements they wished to include in each entry and stuck to it, to the point of leaving in empty elements. This practice takes a lot of the cognitive burden off the encoder, as he simply has to enter in the data, with only a little extra effort when idiosyncrasies arise, as the case with a person who changed their name. However, the authors relied heavily on a prose exposition for each entry, to the detriment of other encodable data: for example, there are no place elements anywhere, though these are certainly known for the birth and death elements at least. The note itself could also have been encoded; this means that if there is some reference in the note to another encoded entity, there will be no way (at least easily) to point the reader to that entity within the site.
@@ -91,7 +91,7 @@ What is most striking to me about the choices the authors made in constructing t
 A second example I will discuss is the [Map of Early Modern London][4] (MoEML) project developed by the University of Victoria in Canada. MoEML provides visitors with an interactive tour of London in and around 1561 CE through use of the Agas map, an early plan of the city. In addition to providing location data, MoEML  has compiled an Encyclopedia to go along with the data, broken up into three sections: a placeography, a personography, and an orgography (having to do with organizations). There are actually [three different flavors of personography][5] on the site. The first two are Historical and Literary personographies, which I will briefly mention, and then a handful of full-length biographies.
 
 The official personography of the site is the Historical and Literary personographies. As expected, the Historical deals with real people, and the Literary with fictional characters. [The entries][6] are ordered in a list, of which the following is an example:
-`
+```
 <person xml:id="BACO1" sex="1">
   <persName type="hist">
     <reg>Bacon, Sir Nicholas</reg>
@@ -112,7 +112,7 @@ The official personography of the site is the Historical and Literary personogra
     </list>
   </note>
 </person>
-`
+```
 Here, the  tag contains an XML id and sex attributes. The name is fully expressed in the  element, with the special tags  for express the accepted name and  to indicate a title. The birth and death tags just give the date, although the attributes are somewhat complicated. The authors of this site have included the @datingMethod attribute to help indicate that this particular entry is to be handled using the Julian calendar. Because the time frame which the map covers spans across the Julian and Gregorian calendars, so the dates differ depending on whether the source uses one calendar or the other. The authors thus establish which calendar their source was using and encode the date to reflect it. Coding is performed on the back end to make sure that the calendars coincide with one another for timeline purposes. Following the date elements, the authors have included a  element to give further details about the individual. Rather than create their own bibliography, as in the Cody Archive, MoEML gives just a headline description of the person and links to external content—in this case, an Oxford Dictionary of National Biography entry.
 
 This entry is on the whole more compact than that of the Cody Archive, but MoEML also has a series of experimental personographies that have expansive entries on important personages. These personographies are full-fledged biographies, several paragraphs long and with plenty of scholarly references (too long to provide a concise example). This collection is an offshoot from the main content of the site, written by graduate students who participated in the site's development. They are also encoded using TEI, but take a different tact than the two examples given above. Instead of encoding the information using the  element, they give the biography using  and  tags. In other words, the document is envisioned as a scholarly work in its own right and less as a collection of biographical statistics. There are also separate TEI headers for each entry, complete with file and revision descriptions; bibliographical citations are referenced in a separate site-wide XML bibliography. The text has two major sections: a  section that contains a  element with the name of the person, and the main  section with the content (under a
@@ -130,7 +130,7 @@ The examples given above suggest several ways to think about personography, but 
 By comparing the different examples of personography against our needs, a clearer picture of how our personography should be structured emerges. First, the MoEML and Cody Archive personographies are too short and not specialized enough for our purposes. Neither would be appropriate for the linking of events and sports, though the MoEML personography does hint at an appropriate way of linking to scholarship and texts. Another consideration: given that there will likely be a good number of entries in the database, it seems conceptually more appropriate to give each entry its own XML document. Computationally, this should not be problematic, and should provide some ease of access when editing particular entries. The longer biographies at MoEML have more of the type of information we would like to include. The tagging of description content also seems appropriate. However, the lack of encoding of biographical data would have to be included and the descriptions are rather too long–this can be included with strategic referencing of information.
 
 With these considerations in mind, it becomes apparent that we need to find some middle ground between these styles. After some tinkering, here is an example of a TEI personography for the ASTRA project for the first recorded victor of the Olympic Games, Coroebus of Elis:
-`
+```
   <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="koroibos1">
   <teiHeader>
     <revisionDesc>
@@ -164,7 +164,7 @@ With these considerations in mind, it becomes apparent that we need to find some
     <listBibl>
   </person>
 </TEI>
-`
+```
 As you can see, the document begins with the  element as the parent element with the appropriate xml:id. Because of the many xml ids, these are kept in a separate spreadsheet to ensure there is no overlap.  This is followed by a TEI header, which provides file and revision information (omitted here for brevity). The main document information is contained in a  tag. The person element is broken into four sections: name, dating, sports content, and bibliography.
 
 The  tag itself provides several peices of information. First, it specifies that this person is a historical person, as opposed to a mythical person or a scholar. The role is defined as victor, insofar as he was a victor in an Olympic games. This seems an appropriate category, as it is often an important distinction in scholarship. The sex attribute is straightforward. The name section also provides three different ways of representing a person's name: the anglicized version, the bare transliteration or "continental" version, and the Greek original text.

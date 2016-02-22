@@ -7,8 +7,6 @@ tags:
 - "Chronicle of Higher Education"
 ---
 
-# Digital Humanities on the front page of the Chronicle
-
 There is an excellent article on the front page of the Chronicle of Higher Education today, ["How the Humanities Compute in the Classroom"][1], written by Marc Perry. It's an excellent snapshot of the field right now. I recommend checking it out!
 
 I especially like the use of "blah blah blah" in this quote from Todd Presner:

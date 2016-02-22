@@ -10,8 +10,6 @@ tags:
 - VMware
 ---
 
-# Installing an OS on a Virtual Machine with vSphere
-
 I had a minor hiccup when setting up a Virtual Machine for the Digital Faust Project through Duke's VMware service: the virtual machine I requested did not come with the OS I requested installed. The instructions I received from Duke were minimal; because of Snowpocalypse 2014, the University was closed and thus my options for help were limited. So I had to figure it out how to do it on my own. Because most of the guides online I saw were geared to administrators, I thought I would post a guide on how to do this with very limited user access.
 
 The first step was installing the VMware vSphere Client. When you set up an instance through Duke, they provide you with the link for downloading the client and the instructions for signing in. If you are like me, at home because of the snow, I had to use my Duke VPN to download the client and run most everything else. Another caveat is that the client they recommend can only be used on a Windows computer. This doesn't make a whole lot of sense, especially since hardly anyone ever uses Windows on campus anymore: I don't even think the building I am in has a Windows computer, and none of the OIT help desk people seem to use a PC. You can do this by running a virtual machine (eg, Oracle's VMBox) and using a Windows .iso image (downloadable through Duke), but that is a lot of hassle, and the vSphere Client didn't seem to like the Windows 8.1 install that I had. So, save yourself some hassle, and find a Windows 7 computer to do this work on. Once I installed the client and signed in (making sure to use winnetid as my user name), I was presented with this screen:

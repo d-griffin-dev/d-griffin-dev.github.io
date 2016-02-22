@@ -11,8 +11,6 @@ tags:
 - TimelineJS
 ---
 
-# Creating beautiful timelines with TimelineJS
-
 For several years I have been using [SIMILE timelines][1] in a variety of applications because it is very straightforward and simple to code. However, one thing it is not is sexy: it takes a lot of work to make your timelines look pretty, and adding anything else besides text can be a chore. But I recently had the opportunity to work with a new tool, [TimelineJS from the Knight Lab at Northwestern University][2], that is even easier to use and has a really sleek, intuitive, and (dare I say it) fun interface right out of the box. Here I am going to briefly describe TimelineJS and give you an example of how I am using it on my Digital Faust site.
 
 The Knight Lab has put out a lot of great products recently, and you should definitely check out their tools and see if you can put them to use in your own projects. The mission of the lab is to create digital tools for journalists, but many of them have obvious relevance for many digital humanities projects. In the coming days I will be writing a few more articles on their tools, so look forward to those.

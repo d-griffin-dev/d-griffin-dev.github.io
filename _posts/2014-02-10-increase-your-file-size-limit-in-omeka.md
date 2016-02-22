@@ -10,8 +10,6 @@ tags:
 - VMware
 ---
 
-# Increase your file size limit in Omeka
-
 I've seen a few queries in the Omeka documentation asking how to increase the file size limit for uploading files. I found that I needed to do this exact task this week, but I had to poke around a bit in the file system to get the right file. So, since the forum has information that is a bit older, I thought I write up briefly the steps you need to perform to increase that file size limit. The system I am using has Omeka 2.1.4 installed on an Ubuntu 12 server: the file system will likely be different if your OS is different.
 
 Omeka in and of itself does not preclude large files: the main issue comes from default settings for PHP. Therefore, we need to alter some of the configuration files to up that limit. If you followed the instructions on the Omeka site for installation and thus are using PHP5 & Apache2, the file you need can be found on your server here:

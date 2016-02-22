@@ -10,7 +10,6 @@ tags:
 - StorymapJS
 ---
 
-# Personography, or, Thinking about People with TEI
 
 In creating the Ancient Sports Text Repository and Atlas (ASTRA), I spent a lot of time deciding how I should encode and store my data. The obvious choice for the texts was the TEI (Textual Encoding Initiative) XML markup schema. This standard, which has been in use since 1994, is used by a large number of libraries, museums, and digital humanities projects to represent texts in a machine readable format. TEI is a remarkably versatile format, capable of expressing all sorts of information beyond the text itself. Since TEI is the standard for many of the major text projects in Classical Studies (eg., Perseus, Papyri.info, etc.), it was a natural choice for encoding the small texts that make up the bulk of the project.
 

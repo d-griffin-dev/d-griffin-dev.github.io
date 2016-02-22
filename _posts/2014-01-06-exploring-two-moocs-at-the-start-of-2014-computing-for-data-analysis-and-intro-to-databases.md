@@ -10,8 +10,6 @@ tags:
 - R
 ---
 
-# Exploring two MOOCs at the start of 2014, Computing for Data Analysis and Intro to Databases
-
 I am a big fan of MOOCs: they are a great way to present information and get involved in a learning community. I have taken a few over the past year, and even completed some of them. As the new year kicks off, I am enrolled in two classes that are starting this week, and I hope to give you updates as time goes on as to how they are progressing and what my thoughts are on them. Here I am going to preview the two courses before they start, and talk about my motivation for taking them.
 
 I started taking this course last year when it was offered, and I didn't finish it. I am hoping that it will go better this time around, since I am much more comfortable with programming and have some experience in the course. I don't want to spend a whole lot of time on this one, so I may skip lightly through the first week and see how my schedule is looking. One of the big reasons why I didn't finish the first time around is because the course only runs for four weeks, so If you miss a week, you really get behind in the discussion forums and for finishing in good standing.

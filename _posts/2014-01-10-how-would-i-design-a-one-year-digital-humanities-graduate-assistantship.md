@@ -21,8 +21,6 @@ tags:
 - WordPress
 ---
 
-# How would I design a one year digital humanities graduate assistantship?
-
 This question was posed to me this week by my supervisor. I and one other student are the first to hold a Digital Humanities Graduate Assistantship, so the program is still being tweaked by my boss and the other powers that be. There really aren't a whole lot of other similar programs around the country to compare us with either, and Duke is somewhat different in how it runs its graduate programs anyway. So there are a lot of questions that still remain about how best to implement an assistantship that also can serve as a training program. So, as a form of self assessment, here is briefly how I would design a basic, one-year digital humanities program in the abstract.
 
 The model student I am thinking of for this thought experiment will be a Duke graduate student enrolled in a humanities PhD program, likely during their waning years in the program while dissertating, and with some experience in computer or web development that would make them a likely candidate for the position. The design is somewhat similar to my own experience, but much more heavily condensed and optimized for a single year.

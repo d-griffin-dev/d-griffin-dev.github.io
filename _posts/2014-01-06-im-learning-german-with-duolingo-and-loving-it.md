@@ -8,8 +8,6 @@ tags:
 - German
 ---
 
-# I'm learning German with Duolingo and loving it
-
 I'm going to Graz in June for a conference, so I have been working on my German in preparation for that trip. I had to pick up some German in my PhD program for reading scholarly articles, but the type of language used in Classics journals is not exactly the kind that will help me order a train ticket or find the bathroom. I'm also interested in new ways of teaching languages, so it's always good to see what others are doing in languages that are not Latin or Greek. So, I decided to check out [Duolingo][1], and I'm loving it so far.
 
 ![Duolingo Skill Tree][2]

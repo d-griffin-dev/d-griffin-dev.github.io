@@ -8,8 +8,6 @@ tags:
 - writing
 ---
 
-# Writing every day with help from 750 Words
-
 To get better at writing, the first thing you have to do is read. The second thing, unsurprisingly, is to actually sit down and write. I am convinced why this is why it is so hard for most students (including my own experience here) to get that term paper finished at the end of the semester: because they haven't gotten in the habit of writing all the time. Having a blog is a great way to do this, and I will be talking about that in another post–but what if you don't want to publish your thoughts to the rest of the world? You could just keep a notebook, writing long hand, but maybe that's not your thing. Well, this helpful little website, [750 Words][1], can help you get your write on every day.
 
 The name of the website tells you what its all about: write 750 words, every day. It will help you become a better writer. When you log into the site, all you see is a toolbar and a flashing cursor. The date is written up there and you are ready to go. You just begin typing, and keep going until you hit 750 words. There is a little counter at the bottom, but otherwise it is just blank space for you to fill up with your words.

@@ -9,8 +9,6 @@ tags:
 
 ---
 
-# G&P deans should work on parking crunch
-
 [Letter to the Editor, Duke Chronicle, 12.2.2010][1]
 
 In the past few weeks, we all have heard about the immediate and pressing dilemmas facing Parking and Transportation Services, particularly in regards to parking and bussing around West Campus. The increased demand from higher numbers of students has happened concurrently with a decrease in services, a decline stemming from a decision by the University administration to protect provost-area academic funding during the economic decline and instead make cuts in Central Services—one area being the heavily subsidized PTS. I think this move was the right one, but it does mean that we need to examine even more closely how we can make do with our limited resources. With that in mind, I urge the graduate and professional school deans, who have the most leverage in these negotiations, to take an even greater interest in addressing some of these problems.

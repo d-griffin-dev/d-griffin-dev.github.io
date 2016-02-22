@@ -8,7 +8,6 @@ tags:
 - StorymapJS
 ---
 
-# StorymapJS makes telling stories in space easy and fun
 
 One of the problems with using Neatline to tell stories is that it is often more complex than it needs to be. Luckily, the [Knight Lab][1] at Northwestern has created [StorymapJS][2] to make that process easier. In just a couple of hours you can put together a map that looks professional and is portable to any webpage.
 

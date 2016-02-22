@@ -8,8 +8,6 @@ tags:
 - WordPress
 ---
 
-# Mitigation Strategies for a XMLRPC.PHP attack
-
 I haven't been able to get easy access to a terminal in the last month or so, I have been pretty flustered when it comes to the performance of this site. If you haven't noticed, it is going up and down—more down than up I suspect, unfortunately, because I don't check on it every day to reset it if its down. But today I was able to get in and poke around a bit in the access logs to see what's been going on. That's when I noticed this strange behavior: excessive use of the `xmlrpc.php` file.
 
 Looking at the Apache log files, I would see entries that looked something like this:

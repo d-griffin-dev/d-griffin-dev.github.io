@@ -6,9 +6,6 @@ categories: "Digital Humanities"
 tags:
 - TAPoR
 ---
-[Source](http://danielgriff.in/2014/tapor-a-resource-for-finding-tools-for-textual-processing/ "Permalink to TAPoR, a resource for finding tools for textual processing")
-
-# TAPoR, a resource for finding tools for textual processing
 
 [TAPoR, Text Analysis Portal for Research][1], is a project from the University of Alberta which collects textual analysis software designed for researchers (as you could probably guess from the name). Getting into textual analysis is not easy, especially for people without a background in computer science. Luckily, the number of tools for textual analysis are growing and becoming easier to use for non-specialists. TAPoR does a great job of collecting these tools at one convenient site, and they do a great job of it!
 

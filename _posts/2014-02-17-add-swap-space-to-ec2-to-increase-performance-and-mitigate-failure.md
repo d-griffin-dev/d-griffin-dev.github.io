@@ -11,8 +11,6 @@ tags:
 - WordPress
 ---
 
-# Add Swap Space to EC2 to Increase Performance and Mitigate Failure
-
 I didn't realize this until it was too late: AWS EC2 instances do not come with a swap partition. So what does this mean? Well, it explains (1), why my WordPress installation was randomly crashing when I saved a post, and (2), why my instance of Omeka crashed during a tutorial I was giving on the platform–which was really not a lot of fun, let me tell you. The process I describe below explains how the problem was found and how to mitigate this sort of failure by installing a swap file (I'll be using Ubuntu 12 LTS, but it should work on any Linux machine).
 
 So, I had mentioned in [an earlier post][1] that I was having problems occasionally with WordPress giving me a database error, and that I could solve this pretty easily by just restarting the mysql service (`sudo service mysql restart`). But this problem happened so rarely that I didn't really expend much effort to figure out what was going on. But when my Omeka install crashed while about 20 people were trying to log in, and it locked up so no one could even view the front end, I knew something was up. After sputtering through the rest of the presentation using the Digital Faust site as emergency backup, I went back to my computer to try to figure out what locked up the site. On a whim, I tried restarting the mysql server, and that fixed everything up. So, it was just a matter of looking into the mysql error logs to find the following Fatal Error:

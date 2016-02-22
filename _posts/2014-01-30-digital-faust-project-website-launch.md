@@ -9,8 +9,6 @@ tags:
 - Omeka
 ---
 
-# Digital Faust Project Website Launch
-
 This semester, I have been working as technical consultant for Duke University Libraries on a digital humanities pedagogy experiment, which we are calling the [Digital Faust Project][1]. This Omeka website, funded by a David L. Paletz grant, is being run in collaboration with an upper-level course on the history of the Faust story from the Renaissance through the present (_The Devil's Pact: German 370; Lit 240; MedRen 345_), and the Omeka exhibit will showcase texts and images from editions of Faust across that entire time period. The content is entirely student-driven: they will be uploading and describing all the items for the exhibit. I just launched the site yesterday, so there isn't much to look at yet, but I encourage you to check it out as it takes shape.
 
 The plan of the project as stated in the grant proposal is as follows:

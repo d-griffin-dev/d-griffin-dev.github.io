@@ -9,8 +9,6 @@ tags:
 - ScreenFlow
 ---
 
-# Create video lectures easily using ScreenFlow
-
 I got the opportunity recently to play around with [ScreenFlow video capture software][1] for Mac. It is a very easy alternative to use compared to Final Cut Pro and takes very little time to get up and running. I think it is great for recording short video lectures as supplemental course materials. It can also be used for more professional presentations: here at Duke, for example, CIT uses ScreenFlow to create Coursera videos, both in their awesome new [Multimedia Project Studio][2] and in Professor's own offices ([they have a great post about preparing a class][3]). Here I am going to preview the software briefly to give you an idea of how it works.
 
 First off, if you want to test drive the software, which normally costs $99, you can download a demo version at the [ScreenFlow website][1]–be warned, though, any videos you make with the demo version will have the words "Demo Mode" watermarked prominently across the entire screen. Here at Duke, you can use the Multimedia Project Studio (MPS) to access the software. If you record a short video using the demo software, you can save the .screenflow file to a thumb drive and take it to the MPS for processing, but do know that the files a very large: the five minute long video I recorded was about 2 gigabits in size. Duke already has [a good post on how to use ScreenFlow][4], so I am not going to reiterate the whole process of creating a video, but just go over some of the features that you can pick up quickly.

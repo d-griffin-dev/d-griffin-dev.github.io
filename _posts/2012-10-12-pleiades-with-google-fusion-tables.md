@@ -10,8 +10,6 @@ tags:
 
 ---
 
-# Pleiades with Google Fusion Tables
-
 I've been exploring Google Fusion Tables to see how they can be of use to students and scholars. It is quite powerful: Using data from the online [Pleiades Gazetteer][1], I was able to create this searchable map in no time:
 
 <iframe src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col12+from+1cHHww9Fu2EezAmX0ofZOV4x7FbLP6tt5_x614I0&amp;h=false&amp;lat=42.33012354634199&amp;lng=19.48528451562505&amp;z=5&amp;t=1&amp;l=col12&amp;y=2&amp;tmplt=1" height="400" width="800" frameborder="no" scrolling="no" data-origwidth="800" data-origheight="400" style="width: 663px; height: 331.5px;"></iframe>

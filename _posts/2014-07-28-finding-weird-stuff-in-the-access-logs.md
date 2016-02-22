@@ -7,8 +7,6 @@ tags:
 - "access logs"
 ---
 
-# Finding Weird Stuff in the Access Logs
-
 One of the jobs I have self-appointed myself as a Monday task is looking over the access logs for our various sites that we host. Our vendor doesn't provide the best tools for doing this, but it has proven a fairly interesting endeavor nonetheless. I am keeping track of some of these things in an informal log. Here are some weird things that I have noticed already.
 
 ### A Funny Looking Mirror

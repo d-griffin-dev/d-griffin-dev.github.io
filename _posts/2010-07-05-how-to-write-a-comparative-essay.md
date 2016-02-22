@@ -9,8 +9,6 @@ tags:
 
 ---
 
-# How to write a comparative essay
-
 _Written for students of my Roman Civilization course._
 
 The great maxim about history is those who do not know it are doomed to repeat it. However, we must use caution when using historical fact to justify our present views, especially the further we look back. The primary mechanism for this type of analysis the comparative essay and the critique thereof. In this quick guide I will attempt to outline in an introductory manner how to write an effective comparative essay. I encourage you to use the [Writing Studio][1] as well, especially noting [Writing as a Process][2]. You may also note that the first two sections are also applicable in other types of scholarly arguments.

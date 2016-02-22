@@ -9,8 +9,6 @@ tags:
 
 ---
 
-# Thoughts on Lucretius De Rerum Natura
-
 _Written for a 2010 class on Roman Civilization._
 
 I'd like to give you a little background on the Lucretius _De Rerum Natura_, which can be a tough read if you don't go into it with the right attitude.

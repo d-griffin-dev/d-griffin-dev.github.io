@@ -7,8 +7,6 @@ categories:
 - "Ancient Sports Text Repository & Atlas"
 ---
 
-# Ancient Sports Text Repository and Atlas
-
 The Ancient Sports Text Repository and Atlas (ASTRA) is a project that I am designing as a part of my service as a Digital Humanities Research Assistant for Duke's Humanities Writ Large Initiative. It is designed to integrate my scholarly research interests (i.e., Classical Studies, and ancient sports in particular) with the skills that I have picked up as a RA. I am aiming to have a working model up and running by Summer 2014. Here is the initial brief of what the project will entail (updated March 2014):
 
 ### Plan of the Ancient Sports Text Repository and Atlas

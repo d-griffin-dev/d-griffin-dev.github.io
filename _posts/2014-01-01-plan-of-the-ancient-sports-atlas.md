@@ -5,8 +5,6 @@ date: 2014-01-01
 categories: "Ancient Sports Text Repository & Atlas"
 ---
 
-# Plan of the Ancient Sports Atlas
-
 A major project of mine this year is getting the Ancient Sports Atlas up and running. Here is the plan for the project as I first wrote it up, in early December (can also be found on my [Ancient Sports Atlas][1] page):
 
 ### Plan of the Ancient Sports Atlas

@@ -8,8 +8,6 @@ tags:
 - Omeka
 ---
 
-# DH Awards 2013 Posted | Daniel J Griffin
-
 Today the DH Awards group announced their winners for best DH projects of 2013. The nominating body is an international group of scholars and the voting is open to the community. Its an interesting collection of sites–browsing the non-selected entrants will bring much reward. You can find the winners posted [here][1]. There were six categories this year, which I list here with the winning projects:
 
 I don't have a whole lot of comments on the selections; they seem pretty good to me, though the selection of the journal site [Eä][2] seems a bit off to me, as, (1), you can read it in English, and (2), its a journal more than a DH project. I liked the 2nd runner-up in that category better, a Greek-Dutch wordbook ([Woordenboek Grieks/Nederlands][3]), for both obvious and personal reasons. [Papyri.info][4] was also in that category.

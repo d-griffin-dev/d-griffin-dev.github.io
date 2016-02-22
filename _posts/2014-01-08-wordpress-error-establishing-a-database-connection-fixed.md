@@ -10,8 +10,6 @@ tags:
 - WordPress
 ---
 
-# WordPress Error Establishing a Database Connection — Quick Fix
-
 **UPDATE: I think I found the solution to this problem: check out [this post][1] (and [this post][2]).**
 
 I had a scary moment earlier today: my brand spanking new WordPress site decided to fail on me. It seemed implausible: one minute its working, and the next, poof! I was getting on every page the message "Error establishing a database connection". When I went to my WordPress admin page, I got a little bit more information:

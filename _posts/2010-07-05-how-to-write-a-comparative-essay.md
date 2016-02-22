@@ -6,7 +6,6 @@ categories: "Teaching"
 tags:
 - Duke
 - "comparative essay"
-
 ---
 
 _Written for students of my Roman Civilization course._

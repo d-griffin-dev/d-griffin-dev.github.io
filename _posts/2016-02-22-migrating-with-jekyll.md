@@ -22,7 +22,7 @@ The process of migrating to Jekyll was not too difficult, it just took me a bit 
 
 3. **Making sure that I had the proper "server" configuration:** Not too much more to say here, I just had to take a bit of time configuring my CNAME / A records and my DNS took longer than expected.
 
-4. **Converting posts to Markdown:** This wasn't too hard, just tedious. I took advantage of a markdown conversion service, [heckyesmarkdown.com](heckyesmarkdown.com), with some of the labor. Incidentally, there were fewer of these conversion services available than I thought there would be. The code blocks are still broken though (ugh).
+4. **Converting posts to Markdown:** This wasn't too hard, just tedious. I took advantage of a markdown conversion service, [heckyesmarkdown.com](http://heckyesmarkdown.com), with some of the labor. Incidentally, there were fewer of these conversion services available than I thought there would be. The code blocks are still broken though (ugh).
 
 5. **Images:** I have to go back and manually add images because I couldn't find a quick and efficient way to import them (ugh again).
 
